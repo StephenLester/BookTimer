@@ -7,27 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		28A912811FFD7FCE0035B4ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A912801FFD7FCE0035B4ED /* AppDelegate.swift */; };
-		28A912831FFD7FCE0035B4ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A912821FFD7FCE0035B4ED /* ViewController.swift */; };
-		28A912861FFD7FCE0035B4ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A912841FFD7FCE0035B4ED /* Main.storyboard */; };
-		28A912891FFD7FCE0035B4ED /* BookTimerSwift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28A912871FFD7FCE0035B4ED /* BookTimerSwift.xcdatamodeld */; };
-		28A9128B1FFD7FCE0035B4ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A9128A1FFD7FCE0035B4ED /* Assets.xcassets */; };
-		28A9128E1FFD7FCE0035B4ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A9128C1FFD7FCE0035B4ED /* LaunchScreen.storyboard */; };
+		28A912A21FFD97730035B4ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A912A11FFD97730035B4ED /* AppDelegate.swift */; };
+		28A912A71FFD97730035B4ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A912A51FFD97730035B4ED /* Main.storyboard */; };
+		28A912A91FFD97730035B4ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A912A81FFD97730035B4ED /* Assets.xcassets */; };
+		28A912AC1FFD97730035B4ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28A912AA1FFD97730035B4ED /* LaunchScreen.storyboard */; };
+		28A912B41FFD993D0035B4ED /* BookTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A912B31FFD993D0035B4ED /* BookTimerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		28A9127D1FFD7FCE0035B4ED /* BookTimerSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookTimerSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		28A912801FFD7FCE0035B4ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		28A912821FFD7FCE0035B4ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		28A912851FFD7FCE0035B4ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		28A912881FFD7FCE0035B4ED /* BookTimerSwift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BookTimerSwift.xcdatamodel; sourceTree = "<group>"; };
-		28A9128A1FFD7FCE0035B4ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		28A9128D1FFD7FCE0035B4ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		28A9128F1FFD7FCE0035B4ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28A9129E1FFD97730035B4ED /* BookCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A912A11FFD97730035B4ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28A912A61FFD97730035B4ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28A912A81FFD97730035B4ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28A912AB1FFD97730035B4ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28A912AD1FFD97730035B4ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28A912B31FFD993D0035B4ED /* BookTimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTimerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		28A9127A1FFD7FCE0035B4ED /* Frameworks */ = {
+		28A9129B1FFD97720035B4ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,73 +35,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		28A912741FFD7FCE0035B4ED = {
+		28A912951FFD97720035B4ED = {
 			isa = PBXGroup;
 			children = (
-				28A9127F1FFD7FCE0035B4ED /* BookTimerSwift */,
-				28A9127E1FFD7FCE0035B4ED /* Products */,
+				28A912A01FFD97730035B4ED /* BookCalculator */,
+				28A9129F1FFD97730035B4ED /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		28A9127E1FFD7FCE0035B4ED /* Products */ = {
+		28A9129F1FFD97730035B4ED /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				28A9127D1FFD7FCE0035B4ED /* BookTimerSwift.app */,
+				28A9129E1FFD97730035B4ED /* BookCalculator.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		28A9127F1FFD7FCE0035B4ED /* BookTimerSwift */ = {
+		28A912A01FFD97730035B4ED /* BookCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				28A912801FFD7FCE0035B4ED /* AppDelegate.swift */,
-				28A912821FFD7FCE0035B4ED /* ViewController.swift */,
-				28A912841FFD7FCE0035B4ED /* Main.storyboard */,
-				28A9128A1FFD7FCE0035B4ED /* Assets.xcassets */,
-				28A9128C1FFD7FCE0035B4ED /* LaunchScreen.storyboard */,
-				28A9128F1FFD7FCE0035B4ED /* Info.plist */,
-				28A912871FFD7FCE0035B4ED /* BookTimerSwift.xcdatamodeld */,
+				28A912A11FFD97730035B4ED /* AppDelegate.swift */,
+				28A912A51FFD97730035B4ED /* Main.storyboard */,
+				28A912A81FFD97730035B4ED /* Assets.xcassets */,
+				28A912AA1FFD97730035B4ED /* LaunchScreen.storyboard */,
+				28A912AD1FFD97730035B4ED /* Info.plist */,
+				28A912B31FFD993D0035B4ED /* BookTimerViewController.swift */,
 			);
-			path = BookTimerSwift;
+			path = BookCalculator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		28A9127C1FFD7FCE0035B4ED /* BookTimerSwift */ = {
+		28A9129D1FFD97720035B4ED /* BookCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 28A912921FFD7FCE0035B4ED /* Build configuration list for PBXNativeTarget "BookTimerSwift" */;
+			buildConfigurationList = 28A912B01FFD97730035B4ED /* Build configuration list for PBXNativeTarget "BookCalculator" */;
 			buildPhases = (
-				28A912791FFD7FCE0035B4ED /* Sources */,
-				28A9127A1FFD7FCE0035B4ED /* Frameworks */,
-				28A9127B1FFD7FCE0035B4ED /* Resources */,
+				28A9129A1FFD97720035B4ED /* Sources */,
+				28A9129B1FFD97720035B4ED /* Frameworks */,
+				28A9129C1FFD97720035B4ED /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BookTimerSwift;
-			productName = BookTimerSwift;
-			productReference = 28A9127D1FFD7FCE0035B4ED /* BookTimerSwift.app */;
+			name = BookCalculator;
+			productName = BookCalculator;
+			productReference = 28A9129E1FFD97730035B4ED /* BookCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		28A912751FFD7FCE0035B4ED /* Project object */ = {
+		28A912961FFD97720035B4ED /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Steve Lester";
 				TargetAttributes = {
-					28A9127C1FFD7FCE0035B4ED = {
+					28A9129D1FFD97720035B4ED = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 28A912781FFD7FCE0035B4ED /* Build configuration list for PBXProject "BookTimerSwift" */;
+			buildConfigurationList = 28A912991FFD97720035B4ED /* Build configuration list for PBXProject "BookCalculator" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,55 +108,54 @@
 				en,
 				Base,
 			);
-			mainGroup = 28A912741FFD7FCE0035B4ED;
-			productRefGroup = 28A9127E1FFD7FCE0035B4ED /* Products */;
+			mainGroup = 28A912951FFD97720035B4ED;
+			productRefGroup = 28A9129F1FFD97730035B4ED /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				28A9127C1FFD7FCE0035B4ED /* BookTimerSwift */,
+				28A9129D1FFD97720035B4ED /* BookCalculator */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		28A9127B1FFD7FCE0035B4ED /* Resources */ = {
+		28A9129C1FFD97720035B4ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28A9128E1FFD7FCE0035B4ED /* LaunchScreen.storyboard in Resources */,
-				28A9128B1FFD7FCE0035B4ED /* Assets.xcassets in Resources */,
-				28A912861FFD7FCE0035B4ED /* Main.storyboard in Resources */,
+				28A912AC1FFD97730035B4ED /* LaunchScreen.storyboard in Resources */,
+				28A912A91FFD97730035B4ED /* Assets.xcassets in Resources */,
+				28A912A71FFD97730035B4ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		28A912791FFD7FCE0035B4ED /* Sources */ = {
+		28A9129A1FFD97720035B4ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28A912891FFD7FCE0035B4ED /* BookTimerSwift.xcdatamodeld in Sources */,
-				28A912831FFD7FCE0035B4ED /* ViewController.swift in Sources */,
-				28A912811FFD7FCE0035B4ED /* AppDelegate.swift in Sources */,
+				28A912A21FFD97730035B4ED /* AppDelegate.swift in Sources */,
+				28A912B41FFD993D0035B4ED /* BookTimerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		28A912841FFD7FCE0035B4ED /* Main.storyboard */ = {
+		28A912A51FFD97730035B4ED /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				28A912851FFD7FCE0035B4ED /* Base */,
+				28A912A61FFD97730035B4ED /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		28A9128C1FFD7FCE0035B4ED /* LaunchScreen.storyboard */ = {
+		28A912AA1FFD97730035B4ED /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				28A9128D1FFD7FCE0035B4ED /* Base */,
+				28A912AB1FFD97730035B4ED /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -167,7 +163,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		28A912901FFD7FCE0035B4ED /* Debug */ = {
+		28A912AE1FFD97730035B4ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -224,7 +220,7 @@
 			};
 			name = Debug;
 		};
-		28A912911FFD7FCE0035B4ED /* Release */ = {
+		28A912AF1FFD97730035B4ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -274,30 +270,30 @@
 			};
 			name = Release;
 		};
-		28A912931FFD7FCE0035B4ED /* Debug */ = {
+		28A912B11FFD97730035B4ED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2LNKQ65S8U;
-				INFOPLIST_FILE = BookTimerSwift/Info.plist;
+				INFOPLIST_FILE = BookCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.self.BookTimerSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.BookCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		28A912941FFD7FCE0035B4ED /* Release */ = {
+		28A912B21FFD97730035B4ED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2LNKQ65S8U;
-				INFOPLIST_FILE = BookTimerSwift/Info.plist;
+				INFOPLIST_FILE = BookCalculator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = edu.self.BookTimerSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.self.BookCalculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -307,38 +303,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		28A912781FFD7FCE0035B4ED /* Build configuration list for PBXProject "BookTimerSwift" */ = {
+		28A912991FFD97720035B4ED /* Build configuration list for PBXProject "BookCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				28A912901FFD7FCE0035B4ED /* Debug */,
-				28A912911FFD7FCE0035B4ED /* Release */,
+				28A912AE1FFD97730035B4ED /* Debug */,
+				28A912AF1FFD97730035B4ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		28A912921FFD7FCE0035B4ED /* Build configuration list for PBXNativeTarget "BookTimerSwift" */ = {
+		28A912B01FFD97730035B4ED /* Build configuration list for PBXNativeTarget "BookCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				28A912931FFD7FCE0035B4ED /* Debug */,
-				28A912941FFD7FCE0035B4ED /* Release */,
+				28A912B11FFD97730035B4ED /* Debug */,
+				28A912B21FFD97730035B4ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		28A912871FFD7FCE0035B4ED /* BookTimerSwift.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				28A912881FFD7FCE0035B4ED /* BookTimerSwift.xcdatamodel */,
-			);
-			currentVersion = 28A912881FFD7FCE0035B4ED /* BookTimerSwift.xcdatamodel */;
-			path = BookTimerSwift.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 28A912751FFD7FCE0035B4ED /* Project object */;
+	rootObject = 28A912961FFD97720035B4ED /* Project object */;
 }

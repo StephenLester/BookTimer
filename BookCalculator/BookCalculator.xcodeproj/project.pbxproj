@@ -54,6 +54,8 @@
 		28A912A01FFD97730035B4ED /* BookCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				28A912B61FFE93860035B4ED /* Model Controller */,
+				28A912B51FFE93760035B4ED /* Model */,
 				28A912A11FFD97730035B4ED /* AppDelegate.swift */,
 				28A912A51FFD97730035B4ED /* Main.storyboard */,
 				28A912A81FFD97730035B4ED /* Assets.xcassets */,
@@ -62,6 +64,20 @@
 				28A912B31FFD993D0035B4ED /* BookTimerViewController.swift */,
 			);
 			path = BookCalculator;
+			sourceTree = "<group>";
+		};
+		28A912B51FFE93760035B4ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		28A912B61FFE93860035B4ED /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
